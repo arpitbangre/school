@@ -83,7 +83,7 @@ st.markdown("""
 # --- DATA LOADING ---
 @st.cache_data
 def load_data():
-    file_path = "d:/ARPIT/ARPIT/INTERNSHIP WORK/AKOLA/SCHOOL/School.xlsx"
+    file_path = "School.xlsx"
     df_main = pd.read_excel(file_path, sheet_name='Cleaned Data')
     df_digital = pd.read_excel(file_path, sheet_name='Digital Presence')
     
